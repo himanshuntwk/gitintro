@@ -48,3 +48,11 @@ To ustaged a staged file
 To discard changes in your working directory
 
 	git checkout <file_name>
+
+To push your project upstream
+
+	git push
+
+To create a new branch
+
+	git branch <branch_name>
