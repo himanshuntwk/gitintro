@@ -1,0 +1,38 @@
+Initialise existing folder for git repository
+
+	git init
+
+Cloning a repository to same name folder as repository name
+	
+	git clone <repository_url>
+
+Cloning a repository to a different name folder other than repository name
+	
+	git clone <repository_url> <folder_name>
+
+.gitignore file is used to exclude file which we do not want to be considered for versioning
+
+Check status of files in current working directory
+	
+	git status
+	*untracked files are those which are not currently available in current git snapshot
+
+Add changes for staging to your local instance of the repository
+
+	git add
+
+Committing changes to local instance of the repository
+
+	git commit -m “Message to commit”
+
+To see changes made but not staged(added)
+	
+	git diff
+
+To see all staged changes
+
+	git diff —staged or git diff —cached
+
+To remove a file from git
+	
+	git rm
