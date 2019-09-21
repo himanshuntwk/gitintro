@@ -36,3 +36,15 @@ To see all staged changes
 To remove a file from git
 	
 	git rm
+
+To view the commit history
+
+	git log or git log --stat or git log --pretty=oneline (other options also available) or git log --since=3.weeks
+
+To ustaged a staged file
+
+	git reset HEAD <file_name>
+
+To discard changes in your working directory
+
+	git checkout <file_name>
